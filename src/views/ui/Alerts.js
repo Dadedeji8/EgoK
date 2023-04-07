@@ -13,8 +13,12 @@ import {
   Badge,
   ButtonGroup,
   Button,
+  Modal, ModalBody, ModalHeader
 } from "reactstrap";
 import '../../components/dashboard/cards.css'
+
+import AlertCards from "./AlertCards";
+
 import ApexChart from "../../components/dashboard/StudentChart";
 const Alerts = () => {
   // For Dismiss Button with Alert
@@ -23,115 +27,22 @@ const Alerts = () => {
   const onDismiss = () => {
     setVisible(false);
   };
+  const [showCard, setShowCard] = useState(true)
+  const toggleShowCards = () => {
+    setShowCard(!showCard)
+    console.log(showCard)
+  }
 
   return (
     <div>
-      {/* --------------------------------------------------------------------------------*/}
-      {/* Card-1*/}
-      {/* --------------------------------------------------------------------------------*/}
+
+
       <Card className="Rounded">
         <ButtonGroup>
-          <Button color="primary">List View</Button><Button color="warning">Grid View</Button>
+          <Button onClick={toggleShowCards} color="primary">List View</Button><Button color="warning" onClick={toggleShowCards} >Grid View</Button>
         </ButtonGroup>
       </Card>
-      <Card>
-        <CardTitle tag="h6" className="border-bottom p-3 mb-0">
-          <i className="bi bi-bell me-2"> </i>
-          Class Graph
-        </CardTitle>
-        <CardBody className="">
-          <div className="mt-3">
-            <h2 className="text-primary">CLASSES</h2>
-          </div>
-          <Col lg="12">
-            <Card>
-              <CardTitle tag="h6" className="border-bottom p-3 mb-0">
-                <i className="bi bi-card-text me-2"> </i>
-                <b>Class</b> List
-              </CardTitle>
-              <CardBody className="">
-                <Table className="the-table">
-                  <thead>
-                    <tr>
-                      <th>ID</th>
-                      <th>Class Name</th>
-                      <th>Collection</th>
-                      <th>Total Students</th>
-                      <th>Actions</th>
-                    </tr>
-                  </thead>
-                  <tbody className="lead">
-                    <tr>
-                      <th scope="row">27</th>
-                      <td>SS1A</td>
-                      <td>7323</td>
-                      <td>69</td>
-                      <td> <Badge color="primary">View Students</Badge></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">27</th>
-                      <td>SS1A</td>
-                      <td>7323</td>
-                      <td>69</td>
-                      <td> <Badge color="primary">View Students</Badge></td>
-                    </tr>
-
-                    <tr>
-                      <th scope="row">27</th>
-                      <td>SS1A</td>
-                      <td>7323</td>
-                      <td>69</td>
-                      <td> <Badge color="primary">View Students</Badge></td>
-                    </tr>
-
-                    <tr>
-                      <th scope="row">27</th>
-                      <td>SS1A</td>
-                      <td>7323</td>
-                      <td>69</td>
-                      <td> <Badge color="primary">View Students</Badge></td>
-                    </tr>
-
-                    <tr>
-                      <th scope="row">27</th>
-                      <td>SS1A</td>
-                      <td>7323</td>
-                      <td>69</td>
-                      <td> <Badge color="primary">View Students</Badge></td>
-                    </tr>
-
-                    <tr>
-                      <th scope="row">27</th>
-                      <td>SS1A</td>
-                      <td>7323</td>
-                      <td>69</td>
-                      <td> <Badge color="primary">View Students</Badge></td>
-                    </tr>
-
-                    <tr>
-                      <th scope="row">27</th>
-                      <td>SS1A</td>
-                      <td>7323</td>
-                      <td>69</td>
-                      <td> <Badge color="primary">View Students</Badge></td>
-                    </tr>
-
-                    <tr>
-                      <th scope="row">27</th>
-                      <td>SS1A</td>
-                      <td>7323</td>
-                      <td>69</td>
-                      <td> <Badge color="primary">View Students</Badge></td>
-                    </tr>
-
-                  </tbody>
-                </Table>
-              </CardBody>
-            </Card>
-          </Col>
-        </CardBody>
-      </Card>
-      {/* the graph is below this is the STUDENT GRAPH */}
+      {showCard && (<AlertCards />)}
       <Card>
         <CardTitle tag="h6" className="border-bottom p-3 mb-0">
           <i className="fa fa-user-circle me-2" />
@@ -143,13 +54,6 @@ const Alerts = () => {
           </div>
         </CardBody>
       </Card>
-      {/* --------------------------------------------------------------------------------*/}
-      {/* Card-3*/}
-      {/* --------------------------------------------------------------------------------*/}
-
-      {/* --------------------------------------------------------------------------------*/}
-      {/* End Inner Div*/}
-      {/* --------------------------------------------------------------------------------*/}
     </div>
   );
 };
