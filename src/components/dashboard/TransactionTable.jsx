@@ -1,4 +1,11 @@
-import { Card, CardBody, CardTitle, CardSubtitle, Table, Button } from "reactstrap";
+import {
+  Card,
+  CardBody,
+  CardTitle,
+  CardSubtitle,
+  Table,
+  Button,
+} from "reactstrap";
 import user1 from "../../assets/images/users/user1.jpg";
 import user2 from "../../assets/images/users/user2.jpg";
 import user3 from "../../assets/images/users/user3.jpg";
@@ -8,97 +15,52 @@ import user5 from "../../assets/images/users/user5.jpg";
 const tableData = [
   {
     avatar: user1,
-    name: "SS1",
+    name: "12345876",
     email: "hgover@gmail.com",
-    project: "1/2/23",
-    status: "1",
+    project: "Mathematics",
+    status: "pending",
     weeks: "35",
     budget: "95K",
   },
   {
     avatar: user2,
-    name: "SS2",
+    name: "8656776",
     email: "hgover@gmail.com",
-    project: " 1/2/23",
-    status: "554",
+    project: "English Language",
+    status: "done",
     weeks: "35",
     budget: "95K",
   },
   {
     avatar: user3,
-    name: "SS3",
+    name: "876565544",
     email: "hgover@gmail.com",
     project: "1/2/23",
-    status: "546",
+    status: "holt",
     weeks: "35",
     budget: "95K",
   },
   {
     avatar: user4,
-    name: "SS2",
+    name: "345666567",
     email: "hgover@gmail.com",
     project: "1/2/23",
-    status: "5677",
+    status: "pending",
     weeks: "35",
     budget: "95K",
   },
   {
     avatar: user5,
-    name: "SS3",
+    name: "2345566",
     email: "hgover@gmail.com",
     project: "1/2/23",
-    status: "7765",
-    weeks: "35",
-    budget: "95K",
-  },
-  , {
-    avatar: user1,
-    name: "SS2A",
-    email: "hgover@gmail.com",
-    project: "1/2/23",
-    status: "7545",
-    weeks: "35",
-    budget: "95K",
-  },
-  {
-    avatar: user2,
-    name: "SS2A",
-    email: "hgover@gmail.com",
-    project: " 1/2/23",
-    status: "4543",
-    weeks: "35",
-    budget: "95K",
-  },
-  {
-    avatar: user3,
-    name: "SS2A",
-    email: "hgover@gmail.com",
-    project: "1/2/23",
-    status: "4533",
-    weeks: "35",
-    budget: "95K",
-  },
-  {
-    avatar: user4,
-    name: "SS2A",
-    email: "hgover@gmail.com",
-    project: "1/2/23",
-    status: "536",
-    weeks: "35",
-    budget: "95K",
-  },
-  {
-    avatar: user5,
-    name: "SS2A",
-    email: "hgover@gmail.com",
-    project: "1/2/23",
-    status: "3544",
+    status: "done",
     weeks: "35",
     budget: "95K",
   },
 ];
 
-const ProjectTables = () => {
+const TransactionTable = () => {
   return (
     <div>
       <Card>
@@ -124,19 +86,35 @@ const ProjectTables = () => {
                 <tr key={index} className="border-top">
                   <td>
                     <div className="d-flex align-items-center p-2">
-
+                      <img
+                        src={tdata.avatar}
+                        className="rounded-circle"
+                        alt="avatar"
+                        width="45"
+                        height="45"
+                      />
                       <div className="ms-3">
                         <h6 className="mb-0">{tdata.name}</h6>
-
+                        <span className="text-muted">{tdata.email}</span>
                       </div>
                     </div>
                   </td>
                   <td>{tdata.project}</td>
                   <td>
-                    {tdata.status}
+                    {tdata.status === "pending" ? (
+                      <span className="p-2 bg-danger rounded-circle d-inline-block ms-3"></span>
+                    ) : tdata.status === "holt" ? (
+                      <span className="p-2 bg-warning rounded-circle d-inline-block ms-3"></span>
+                    ) : (
+                      <span className="p-2 bg-success rounded-circle d-inline-block ms-3"></span>
+                    )}
                   </td>
                   <td>{tdata.weeks}</td>
-                  <td><Button type="" className="btn btn-warning">View</Button></td>
+                  <td>
+                    <Button type="" className="btn btn-warning">
+                      View
+                    </Button>
+                  </td>
                 </tr>
               ))}
             </tbody>
@@ -147,4 +125,4 @@ const ProjectTables = () => {
   );
 };
 
-export default ProjectTables;
+export default TransactionTable;
