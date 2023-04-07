@@ -6,11 +6,11 @@ $font-family-sans-serif: "Rubik", sans-serif;
 /*******************/
 // Theme Colors
 /********************/
-$primary: #1f0068;
-$info: #604dcf;
+$primary: #01ec6b;
+$info: #08b9cd;
 $danger: #f62d51;
 $success: #39c449;
-$warning: #ffbc34;
+$warning: #08b185;
 $dark: #343a40;
 $light: #eaf2fb;
 $secondary: #35363b;
@@ -77,4 +77,4 @@ $btn-focus-width: 0px;
 // Theme sidebar width
 /********************/
 $sidebarWidth: 260px;
-$sidebarColor: $white;
+$sidebarColor: $warning;

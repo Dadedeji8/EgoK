@@ -1,81 +1,62 @@
-.card-container{
-    display: flex;
-    gap: 0.4rem;
-    margin: auto;
-    justify-content: space-around;
+.card-container {
+  display: flex;
+  gap: 0.4rem;
+  margin: auto;
+  justify-content: space-around;
 }
-.icon-card{
-    font-size: 2.2rem ;
-    font-weight: 100;
-    color: #01013f;
+.icon-card {
+  font-size: 2.2rem;
+  font-weight: 100;
+  color: #01013f;
 }
-.card-h4{
-    font-size: 14px;
-    margin-bottom: 2px;
+.card-h4 {
+  font-size: 14px;
+  margin-bottom: 2px;
 }
-.card-h2{
-    font-size: 20px;
-    color: rgb(48, 48, 48);
+.card-h2 {
+  font-size: 20px;
+  color: rgb(48, 48, 48);
 }
-.cardborder{
-    border: 1px solid #8686df;
-    padding: 0.3rem 0.8rem;
-    margin-bottom: 12px;
-    background-color: rgb(113, 227, 255);
-    width: 20rem;
-    display: flex;
-    gap: 1rem;
+.cardborder {
+  border: 1px solid #8686df;
+  padding: 0.3rem 0.8rem;
+  margin-bottom: 12px;
+  background-color: #01ec6b;
+  width: 20rem;
+  display: flex;
+  gap: 1rem;
 }
-.cardborder:hover{
-    border: rgb(60, 255, 0) solid 1px;
+.cardborder:hover {
+  border: rgb(60, 255, 0) solid 1px;
 }
-.icon-box{
-    padding: 0.4rem;
-    border-radius: 0.3rem;
-    background-color: #eeeeee;
-    width: 3rem;
-    margin:auto 3px auto 4px;
-
+.icon-box {
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  background-color: #eeeeee;
+  width: 3rem;
+  margin: auto 3px auto 4px;
 }
-.cardtext{
-    margin:auto 3px auto 4px;
-    margin-left: 5px;
-    align-items: center;
+.cardtext {
+  margin: auto 3px auto 4px;
+  margin-left: 5px;
+  align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* media quaries */
 
-@media screen and (max-width:1024px) {
-    .card-container{
-       display: grid;
-       grid-template-columns: 1fr 1fr ;
-        
-    }
-    .cardborder{
-        width: 17rem;
-    }
+@media screen and (max-width: 1024px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .cardborder {
+    width: 17rem;
+  }
 }
 
-@media screen and (max-width:500px) {
-    .card-container{
-        display: block;
-        margin: auto;
-    }
+@media screen and (max-width: 500px) {
+  .card-container {
+    display: block;
+    margin: auto;
+  }
 }

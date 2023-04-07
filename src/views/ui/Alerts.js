@@ -6,13 +6,13 @@ import {
   UncontrolledAlert,
   Card,
   CardBody,
-  CardTitle, Table, 
+  CardTitle, Table,
   TabContentProps,
-   TabContent, Row,
-    Col,
-     Badge,
-     ButtonGroup,
-     Button,
+  TabContent, Row,
+  Col,
+  Badge,
+  ButtonGroup,
+  Button,
 } from "reactstrap";
 import '../../components/dashboard/cards.css'
 import ApexChart from "../../components/dashboard/StudentChart";
@@ -50,7 +50,10 @@ const Alerts = () => {
                 <b>Class</b> List
               </CardTitle>
               <CardBody className="">
-                <Table  className="the-table">
+                <Table className="the-table"
+
+
+                >
                   <thead>
                     <tr>
                       <th>ID</th>
@@ -124,7 +127,7 @@ const Alerts = () => {
           </Col>
         </CardBody>
       </Card>
-   {/* the graph is below this is the STUDENT GRAPH */}
+      {/* the graph is below this is the STUDENT GRAPH */}
       <Card>
         <CardTitle tag="h6" className="border-bottom p-3 mb-0">
           <i className="fa fa-user-circle me-2" />
@@ -132,14 +135,14 @@ const Alerts = () => {
         </CardTitle>
         <CardBody className="">
           <div>
-          <ApexChart className="col"/>
+            <ApexChart className="col" />
           </div>
         </CardBody>
       </Card>
       {/* --------------------------------------------------------------------------------*/}
       {/* Card-3*/}
       {/* --------------------------------------------------------------------------------*/}
-      
+
       {/* --------------------------------------------------------------------------------*/}
       {/* End Inner Div*/}
       {/* --------------------------------------------------------------------------------*/}

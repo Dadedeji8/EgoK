@@ -1,85 +1,71 @@
-.flex-card{
-    display: flex;
-    padding: 15px!important;
-   align-items: center;
-    /* align-content: center; */
+.flex-card {
+  display: flex;
+  padding: 15px !important;
+  align-items: center;
+  /* align-content: center; */
 }
-.grid{
-    gap: 0.2rem;
-    
+.grid {
+  gap: 0.2rem;
 }
-.icon-card{
-    font-size: 2.2rem ;
-    font-weight: 100;
-    color: #01013f;
+.icon-card {
+  font-size: 2.2rem;
+  font-weight: 100;
+  color: #01013f;
 }
-.card-h4{
-    color: #ffffff;
-    font-size: 14px;
-    margin-bottom: 2px;
+.card-h4 {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 2px;
 }
-.card-h2{
-    font-size: 20px;
-    color: rgb(252, 252, 252);
+.card-h2 {
+  font-size: 20px;
+  color: rgb(252, 252, 252);
 }
-.cardborder{
-    border: 1px solid #01013f;
-    padding: 0.6rem 1rem;
-    margin-bottom: 12px;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    
-    
+.cardborder {
+  border: 1px solid #01013f;
+  padding: 0.6rem 1rem;
+  margin-bottom: 12px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
 }
-.cardborder:hover{
-    border: rgb(60, 255, 0) solid 1px;
+.cardborder:hover {
+  border: rgb(60, 255, 0) solid 1px;
 }
-.icon-box{
-    padding: 0.4rem;
-    border-radius: 0.3rem;
-    background-color: #eeeeee;
-    width: 3rem;
-    margin:auto 3px auto 4px;
-
+.icon-box {
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  background-color: #eeeeee;
+  width: 3rem;
+  margin: auto 3px auto 4px;
 }
-.cardtext{
-    margin:auto 3px auto 4px;
-    margin-left: 5px;
-    align-items: center;
+.cardtext {
+  margin: auto 3px auto 4px;
+  margin-left: 5px;
+  align-items: center;
 }
-.cardborder{
-    color: wheat;
-    border: 1px solid #8686df;
-    padding: 0.3rem 0.8rem;
-    margin-bottom: 12px;
-    background-color:#1f0068;
-    width: 20rem;
-    display: flex;
-    gap: 1rem;
+.cardborder {
+  color: rgb(255, 255, 255);
+  border: 1px solid #8686df;
+  padding: 0.3rem 0.8rem;
+  margin-bottom: 12px;
+  background-color: #01ec6b;
+  width: 20rem;
+  display: flex;
+  gap: 1rem;
 }
 
 /* the table i made responsive for the class */
-.the-table{
-    overflow: scroll;
+.the-table {
+  overflow: scroll;
 }
 
-
-
-
-
-
-
-
-
-
 /* media quary */
-@media screen and (max-width:500px) {
-    .grid{
-      display: grid;
-      grid-template-columns: 1fr;
-      
-    }
-    .cardborder{
-        width: 100%;
-    }
+@media screen and (max-width: 500px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .cardborder {
+    width: 100%;
+  }
 }

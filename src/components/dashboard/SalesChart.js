@@ -69,7 +69,7 @@ const SalesChart = () => {
   return (
     <Card>
       <CardBody>
-        <CardTitle tag="h5"><b>Resent </b>Paid</CardTitle>
+        <CardTitle tag="h5"><b>Recent </b>Paid</CardTitle>
         <CardSubtitle className="text-muted" tag="h6">
           Students...
         </CardSubtitle>

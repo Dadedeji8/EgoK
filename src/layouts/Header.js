@@ -30,7 +30,7 @@ const Header = () => {
   return (
     <Navbar color="primary" dark expand="md" className="bg-gradient">
       <div className="d-flex align-items-center">
-      <Button
+        <Button
           color="primary"
           className=" d-lg-none"
           onClick={() => showMobilemenu()}
@@ -40,7 +40,7 @@ const Header = () => {
         <NavbarBrand href="/" className="d-lg-none">
           EgoKollect
         </NavbarBrand>
-        
+
       </div>
       <div className="hstack gap-2">
         <Button
@@ -74,10 +74,9 @@ const Header = () => {
               DD Menu
             </DropdownToggle>
             <DropdownMenu end>
-              <DropdownItem>Option 1</DropdownItem>
-              <DropdownItem>Option 2</DropdownItem>
+              <DropdownItem>Settings</DropdownItem>
               <DropdownItem divider />
-              <DropdownItem>Reset</DropdownItem>
+              <DropdownItem>Log-out</DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
         </Nav>

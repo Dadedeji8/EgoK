@@ -18,7 +18,7 @@ const Cards = () => {
                 <CiUser className='icon-card' />
             </div>
             <div className='cardtext'>
-                <h4 className='card-h4 lead text-secondary'>Total Student</h4>
+                <h4 className='card-h4 lead '>Total Student</h4>
                 <h2 className='card-h2'>2024</h2>
             </div>
         </div>
@@ -27,7 +27,7 @@ const Cards = () => {
                 <TfiWallet className='icon-card' />
             </div>
             <div className='cardtext'>
-                <h4 className='card-h4 lead text-secondary'> Student Paid</h4>
+                <h4 className='card-h4 lead '> Student Paid</h4>
                 <h2 className='card-h2'>224</h2>
             </div>
         </div>
@@ -36,7 +36,7 @@ const Cards = () => {
                 <BsFillPersonCheckFill className='icon-card' />
             </div>
             <div className='cardtext'>
-                <h4 className='card-h4 lead text-secondary'> Student Not Paid</h4>
+                <h4 className='card-h4 lead '> Student Not Paid</h4>
                 <h2 className='card-h2'>201</h2>
             </div>
         </div>
@@ -45,7 +45,7 @@ const Cards = () => {
                 <BsCheck2 className='icon-card' />
             </div>
             <div className='cardtext'>
-                <h4 className='card-h4 lead text-secondary'>Arrears</h4>
+                <h4 className='card-h4 lead '>Arrears</h4>
                 <h2 className='card-h2'>43</h2>
             </div>
         </div>
@@ -54,7 +54,7 @@ const Cards = () => {
                 <BsFillPersonCheckFill className='icon-card' />
             </div>
             <div className='cardtext'>
-                <h4 className='card-h4 lead text-secondary'>Total Collections</h4>
+                <h4 className='card-h4 lead '>Total Collections</h4>
                 <h2 className='card-h2'>₦5432</h2>
             </div>
         </div>
@@ -63,7 +63,7 @@ const Cards = () => {
                 <BiBarChartSquare className='icon-card' />
             </div>
             <div className='cardtext'>
-                <h4 className='card-h4 lead text-secondary'>Total Expected For Session</h4>
+                <h4 className='card-h4 lead  card-h4'>Total Expected For Session</h4>
                 <h2 className='card-h2'>₦5478</h2>
             </div>
         </div>
