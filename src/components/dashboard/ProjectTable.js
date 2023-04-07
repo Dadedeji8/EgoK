@@ -1,4 +1,4 @@
-import { Card, CardBody, CardTitle, CardSubtitle, Table } from "reactstrap";
+import { Card, CardBody, CardTitle, CardSubtitle, Table, Button } from "reactstrap";
 import user1 from "../../assets/images/users/user1.jpg";
 import user2 from "../../assets/images/users/user2.jpg";
 import user3 from "../../assets/images/users/user3.jpg";
@@ -8,7 +8,7 @@ import user5 from "../../assets/images/users/user5.jpg";
 const tableData = [
   {
     avatar: user1,
-    name: "Hanna Gover",
+    name: "12345876",
     email: "hgover@gmail.com",
     project: "Mathematics",
     status: "pending",
@@ -17,7 +17,7 @@ const tableData = [
   },
   {
     avatar: user2,
-    name: "Hanna Gover",
+    name: "8656776",
     email: "hgover@gmail.com",
     project: "English Language",
     status: "done",
@@ -26,7 +26,7 @@ const tableData = [
   },
   {
     avatar: user3,
-    name: "Hanna Gover",
+    name: "876565544",
     email: "hgover@gmail.com",
     project: "Physics",
     status: "holt",
@@ -35,7 +35,7 @@ const tableData = [
   },
   {
     avatar: user4,
-    name: "Hanna Gover",
+    name: "345666567",
     email: "hgover@gmail.com",
     project: "Arts",
     status: "pending",
@@ -44,7 +44,7 @@ const tableData = [
   },
   {
     avatar: user5,
-    name: "Hanna Gover",
+    name: "2345566",
     email: "hgover@gmail.com",
     project: "Biology",
     status: "done",
@@ -58,20 +58,20 @@ const ProjectTables = () => {
     <div>
       <Card>
         <CardBody>
-          <CardTitle tag="h5">Departmental Notification</CardTitle>
+          <CardTitle tag="h5">Class List List</CardTitle>
           <CardSubtitle className="mb-2 text-muted" tag="h6">
-            Overview of the Department
+            Payment History
           </CardSubtitle>
 
           <Table className="no-wrap mt-3 align-middle" responsive borderless>
             <thead>
               <tr>
-                <th>Department HOD</th>
-                <th>Department</th>
+                <th>Student List</th>
+                <th>Payment History </th>
 
-                <th>Status</th>
-                <th>Branches</th>
-                <th>Income</th>
+                <th>Arrears List</th>
+                <th>Student List</th>
+                <th>View Mode</th>
               </tr>
             </thead>
             <tbody>
@@ -103,7 +103,7 @@ const ProjectTables = () => {
                     )}
                   </td>
                   <td>{tdata.weeks}</td>
-                  <td>{tdata.budget}</td>
+                  <td><Button type="" className="btn btn-warning">View</Button></td>
                 </tr>
               ))}
             </tbody>

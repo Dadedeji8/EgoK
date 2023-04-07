@@ -50,10 +50,7 @@ const Alerts = () => {
                 <b>Class</b> List
               </CardTitle>
               <CardBody className="">
-                <Table className="the-table"
-
-
-                >
+                <Table className="the-table">
                   <thead>
                     <tr>
                       <th>ID</th>

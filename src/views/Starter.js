@@ -1,3 +1,6 @@
+// -------------------Dashboard--------------------
+
+
 import { Col, Row } from "reactstrap";
 import SalesChart from "../components/dashboard/SalesChart";
 import Feeds from "../components/dashboard/Feeds";
@@ -65,7 +68,7 @@ const Starter = () => {
         </Col>
       </Row>
       {/***Blog Cards***/}
-    
+
     </div>
   );
 };

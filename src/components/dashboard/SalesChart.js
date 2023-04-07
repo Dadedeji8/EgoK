@@ -1,3 +1,5 @@
+// -----classes and revenue chart-----
+
 import { Card, CardBody, CardSubtitle, CardTitle } from "reactstrap";
 import Chart from "react-apexcharts";
 
@@ -27,15 +29,15 @@ const SalesChart = () => {
         borderRadius: 2,
       },
     },
-    colors: ["green", "#009efb", "green"],
+    colors: ["green", "#08b185", "green"],
     xaxis: {
       categories: [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
+        "jss1",
+        "jss2",
+        "jss3",
+        "ss1",
+        "ss2a",
+        "ss2b",
         "Jul",
         "Aug",
         "Sep",
@@ -57,11 +59,11 @@ const SalesChart = () => {
   };
   const series = [
     {
-      name: "2020",
+      name: "Acquired Revenue",
       data: [20, 40, 50, 30, 40, 50, 30, 30, 40],
     },
     {
-      name: "2022",
+      name: "Expected Revenue",
       data: [10, 20, 40, 60, 20, 40, 60, 60, 20],
     },
   ];
@@ -69,9 +71,9 @@ const SalesChart = () => {
   return (
     <Card>
       <CardBody>
-        <CardTitle tag="h5"><b>Recent </b>Paid</CardTitle>
+        <CardTitle tag="h5"><b>Classes </b>Revenue</CardTitle>
         <CardSubtitle className="text-muted" tag="h6">
-          Students...
+
         </CardSubtitle>
         <Chart options={options} series={series} type="bar" height="570" />
       </CardBody>

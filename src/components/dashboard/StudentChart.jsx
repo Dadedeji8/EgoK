@@ -1,25 +1,25 @@
 import React, { Component } from "react";
 import Chart from "react-apexcharts";
 
-class ApexChart extends Component {
+class StudentChart extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
       options: {
         chart: {
-          id: "basic-bar"
+          id: "basic-bar",
         },
         xaxis: {
-          categories: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
-        }
+          categories: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
+        },
       },
       series: [
         {
           name: "ALL CLASS LIST chart",
-          data: [30, 40, 45, 50, 49, 60, 70, 91]
-        }
-      ]
+          data: [30, 40, 45, 50, 49, 60, 70, 91],
+        },
+      ],
     };
   }
 
@@ -41,4 +41,4 @@ class ApexChart extends Component {
   }
 }
 
-export default ApexChart;
+export default StudentChart;
