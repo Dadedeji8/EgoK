@@ -66,57 +66,64 @@ const Alerts = () => {
                       <td>SS1A</td>
                       <td>7323</td>
                       <td>69</td>
-                      <td> <Badge color="primary">MEDL</Badge></td>
+                      <td> <Badge color="primary">View Students</Badge></td>
                     </tr>
                     <tr>
                       <th scope="row">27</th>
                       <td>SS1A</td>
                       <td>7323</td>
                       <td>69</td>
-                      <td> <Badge color="secondary">CAL</Badge></td>
+                      <td> <Badge color="primary">View Students</Badge></td>
                     </tr>
+
                     <tr>
                       <th scope="row">27</th>
                       <td>SS1A</td>
                       <td>7323</td>
                       <td>69</td>
-                      <td> <Badge color="danger">MKKL</Badge></td>
+                      <td> <Badge color="primary">View Students</Badge></td>
                     </tr>
+
                     <tr>
                       <th scope="row">27</th>
                       <td>SS1A</td>
                       <td>7323</td>
                       <td>69</td>
-                      <td> <Badge color="success">MSS</Badge></td>
+                      <td> <Badge color="primary">View Students</Badge></td>
                     </tr>
+
                     <tr>
                       <th scope="row">27</th>
                       <td>SS1A</td>
                       <td>7323</td>
                       <td>69</td>
-                      <td> <Badge color="primary">LLRT</Badge></td>
+                      <td> <Badge color="primary">View Students</Badge></td>
                     </tr>
+
                     <tr>
                       <th scope="row">27</th>
                       <td>SS1A</td>
                       <td>7323</td>
                       <td>69</td>
-                      <td> <Badge color="primary">SRCC</Badge></td>
+                      <td> <Badge color="primary">View Students</Badge></td>
                     </tr>
+
                     <tr>
                       <th scope="row">27</th>
                       <td>SS1A</td>
                       <td>7323</td>
                       <td>69</td>
-                      <td> <Badge color="success">KTW</Badge></td>
+                      <td> <Badge color="primary">View Students</Badge></td>
                     </tr>
+
                     <tr>
                       <th scope="row">27</th>
                       <td>SS1A</td>
                       <td>7323</td>
                       <td>69</td>
-                      <td> <Badge color="warning">JSN</Badge></td>
+                      <td> <Badge color="primary">View Students</Badge></td>
                     </tr>
+
                   </tbody>
                 </Table>
               </CardBody>
