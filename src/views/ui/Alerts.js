@@ -18,20 +18,32 @@ import {
 import '../../components/dashboard/cards.css'
 
 import AlertCards from "./AlertCards";
-
+import AlertGridView from "./AlertGridView";
 import ApexChart from "../../components/dashboard/StudentChart";
 const Alerts = () => {
   // For Dismiss Button with Alert
+
+
   const [visible, setVisible] = useState(true);
 
   const onDismiss = () => {
     setVisible(false);
   };
   const [showCard, setShowCard] = useState(true)
-  const toggleShowCards = () => {
-    setShowCard(!showCard)
-    console.log(showCard)
+
+
+  const [showGrid, setShowGrid] = useState(false)
+
+  const toggleShowGrid = () => {
+    setShowGrid(true)
+    setShowCard(false)
   }
+
+  const toggleShowCards = () => {
+    setShowCard(true)
+    setShowGrid(false)
+  }
+
 
   return (
     <div>
@@ -39,10 +51,12 @@ const Alerts = () => {
 
       <Card className="Rounded">
         <ButtonGroup>
-          <Button onClick={toggleShowCards} color="primary">List View</Button><Button color="warning" onClick={toggleShowCards} >Grid View</Button>
+          <Button onClick={toggleShowCards} color="primary">List View</Button><Button color="warning" onClick={toggleShowGrid} >Grid View</Button>
         </ButtonGroup>
       </Card>
       {showCard && (<AlertCards />)}
+      {showGrid && (<AlertGridView />)}
+
       <Card>
         <CardTitle tag="h6" className="border-bottom p-3 mb-0">
           <i className="fa fa-user-circle me-2" />

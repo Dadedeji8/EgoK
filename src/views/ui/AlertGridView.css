@@ -1,0 +1,27 @@
+.card__grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.8rem;
+  margin: 1.2rem;
+  padding: 1rem;
+}
+.grid__card {
+  width: 10rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .card__grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.2rem;
+  }
+  .grid__card {
+    width: 8rem;
+  }
+}
