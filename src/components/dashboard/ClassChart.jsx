@@ -11,22 +11,12 @@ class StudentChart extends Component {
           id: "basic-bar",
         },
         xaxis: {
-          categories: [
-            "SS1",
-            "SS2",
-            "SS3A",
-            "JSS1",
-            "JSS2",
-            "JSS3",
-            "JSS1A",
-            "SS3B",
-            "SS3C",
-          ],
+          categories: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
         },
       },
       series: [
         {
-          name: "Revenue",
+          name: "Revernue",
           data: [30, 40, 45, 50, 49, 60, 70, 91],
         },
       ],

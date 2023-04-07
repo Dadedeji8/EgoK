@@ -56,7 +56,7 @@ const Alerts = () => {
                       <th>ID</th>
                       <th>Class Name</th>
                       <th>Collection</th>
-                      <th>Total</th>
+                      <th>Total Students</th>
                       <th>Actions</th>
                     </tr>
                   </thead>

@@ -35,13 +35,13 @@ const Grid = () => {
               <h3>Registration No :</h3><small> Name </small>
             </div>
             <div>
-              <h3>Discount :</h3><small> 0 </small>
+              <h3>Discount :</h3><small> ₦ </small>
             </div>
             <div>
-              <h3>Arrears  :</h3><small> N6500 </small>
+              <h3>Arrears  :</h3><small> ₦6500 </small>
             </div>
             <div>
-              <h3>Payments :</h3><small> N654380 </small>
+              <h3>Payments :</h3><small> ₦654380 </small>
             </div>
 
           </CardBody>
@@ -59,13 +59,13 @@ const Grid = () => {
               <h3>Registration No :</h3><small> Name </small>
             </div>
             <div>
-              <h3>Discount :</h3><small> 0 </small>
+              <h3>Discount :</h3><small> ₦ </small>
             </div>
             <div>
-              <h3>Arrears  :</h3><small> N6500 </small>
+              <h3>Arrears  :</h3><small> ₦6500 </small>
             </div>
             <div>
-              <h3>Payments :</h3><small> N654380 </small>
+              <h3>Payments :</h3><small> ₦654380 </small>
             </div>
 
           </CardBody>
@@ -87,13 +87,13 @@ const Grid = () => {
               <h3>Registration No :</h3><small> Name </small>
             </div>
             <div>
-              <h3>Discount :</h3><small> 0 </small>
+              <h3>Discount :</h3><small> ₦0 </small>
             </div>
             <div>
-              <h3>Arrears  :</h3><small> N6500 </small>
+              <h3>Arrears  :</h3><small> ₦6500 </small>
             </div>
             <div>
-              <h3>Payments :</h3><small> N654380 </small>
+              <h3>Payments :</h3><small> ₦654380 </small>
             </div>
 
           </CardBody>
@@ -104,23 +104,23 @@ const Grid = () => {
         <Card>
           <CardTitle tag="h6" className="border-bottom p-3 mb-0">
             <h3>Student :</h3><small> Name </small>
-          </CardTitle>
+            ₦         </CardTitle>
           <CardBody className="">
             <div>
 
             </div>
             <div>
               <h3>Registration No :</h3><small> Name </small>
-            </div>
+              ₦           </div>
             <div>
-              <h3>Discount :</h3><small> 0 </small>
-            </div>
+              <h3>Discount :</h3><small> ₦ </small>
+              ₦           </div>
             <div>
-              <h3>Arrears  :</h3><small> N6500 </small>
-            </div>
+              <h3>Arrears  :</h3><small> ₦6500 </small>
+              ₦           </div>
             <div>
-              <h3>Payments :</h3><small> N654380 </small>
-            </div>
+              <h3>Payments :</h3><small> ₦654380 </small>
+              ₦           </div>
 
           </CardBody>
         </Card>
@@ -131,23 +131,23 @@ const Grid = () => {
         <Card>
           <CardTitle tag="h6" className="border-bottom p-3 mb-0">
             <h3>Student :</h3><small> Name </small>
-          </CardTitle>
+            ₦         </CardTitle>
           <CardBody className="">
             <div>
 
             </div>
             <div>
               <h3>Registration No :</h3><small> Name </small>
-            </div>
+              ₦           </div>
             <div>
-              <h3>Discount :</h3><small> 0 </small>
-            </div>
+              <h3>Discount :</h3><small> ₦ </small>
+              ₦           </div>
             <div>
-              <h3>Arrears  :</h3><small> N6500 </small>
-            </div>
+              <h3>Arrears  :</h3><small> ₦6500 </small>
+              ₦           </div>
             <div>
-              <h3>Payments :</h3><small> N654380 </small>
-            </div>
+              <h3>Payments :</h3><small> ₦654380 </small>
+              ₦           </div>
 
           </CardBody>
         </Card>
@@ -158,23 +158,23 @@ const Grid = () => {
         <Card>
           <CardTitle tag="h6" className="border-bottom p-3 mb-0">
             <h3>Student :</h3><small> Name </small>
-          </CardTitle>
+            ₦         </CardTitle>
           <CardBody className="">
             <div>
 
             </div>
             <div>
               <h3>Registration No :</h3><small> Name </small>
-            </div>
+              ₦           </div>
             <div>
-              <h3>Discount :</h3><small> 0 </small>
-            </div>
+              <h3>Discount :</h3><small> ₦ </small>
+              ₦           </div>
             <div>
-              <h3>Arrears  :</h3><small> N6500 </small>
-            </div>
+              <h3>Arrears  :</h3><small> ₦6500 </small>
+              ₦           </div>
             <div>
-              <h3>Payments :</h3><small> N654380 </small>
-            </div>
+              <h3>Payments :</h3><small> ₦654380 </small>
+              ₦           </div>
 
           </CardBody>
         </Card>
@@ -185,23 +185,23 @@ const Grid = () => {
         <Card>
           <CardTitle tag="h6" className="border-bottom p-3 mb-0">
             <h3>Student :</h3><small> Name </small>
-          </CardTitle>
+            ₦         </CardTitle>
           <CardBody className="">
             <div>
 
             </div>
             <div>
               <h3>Registration No :</h3><small> Name </small>
-            </div>
+              ₦           </div>
             <div>
-              <h3>Discount :</h3><small> 0 </small>
-            </div>
+              <h3>Discount :</h3><small> ₦ </small>
+              ₦           </div>
             <div>
-              <h3>Arrears  :</h3><small> N6500 </small>
-            </div>
+              <h3>Arrears  :</h3><small> ₦6500 </small>
+              ₦           </div>
             <div>
-              <h3>Payments :</h3><small> N654380 </small>
-            </div>
+              <h3>Payments :</h3><small> ₦654380 </small>
+              ₦           </div>
 
           </CardBody>
         </Card>
@@ -212,23 +212,23 @@ const Grid = () => {
         <Card>
           <CardTitle tag="h6" className="border-bottom p-3 mb-0">
             <h3>Student :</h3><small> Name </small>
-          </CardTitle>
+            ₦         </CardTitle>
           <CardBody className="">
             <div>
 
             </div>
             <div>
               <h3>Registration No :</h3><small> Name </small>
-            </div>
+              ₦           </div>
             <div>
-              <h3>Discount :</h3><small> 0 </small>
-            </div>
+              <h3>Discount :</h3><small> ₦ </small>
+              ₦           </div>
             <div>
-              <h3>Arrears  :</h3><small> N6500 </small>
-            </div>
+              <h3>Arrears  :</h3><small> ₦6500 </small>
+              ₦           </div>
             <div>
-              <h3>Payments :</h3><small> N654380 </small>
-            </div>
+              <h3>Payments :</h3><small> ₦654380 </small>
+              ₦           </div>
 
           </CardBody>
         </Card>
