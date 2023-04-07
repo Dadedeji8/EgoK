@@ -2,18 +2,13 @@
 
 import React, { useState } from "react";
 import {
-  Alert,
-  UncontrolledAlert,
+
   Card,
   CardBody,
-  CardTitle, Table,
-  TabContentProps,
-  TabContent, Row,
-  Col,
-  Badge,
+  CardTitle,
   ButtonGroup,
   Button,
-  Modal, ModalBody, ModalHeader
+
 } from "reactstrap";
 import '../../components/dashboard/cards.css'
 
@@ -38,6 +33,8 @@ const Alerts = () => {
     setShowGrid(true)
     setShowCard(false)
   }
+
+
 
   const toggleShowCards = () => {
     setShowCard(true)
