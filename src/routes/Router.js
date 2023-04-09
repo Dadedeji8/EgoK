@@ -7,6 +7,7 @@ const FullLayout = lazy(() => import("../layouts/FullLayout.js"));
 /***** Pages ****/
 
 const Starter = lazy(() => import("../views/Starter.js"));
+const Signin = lazy(() => import("../views/Signin.js"));
 const About = lazy(() => import("../views/About.js"));
 const Alerts = lazy(() => import("../views/ui/Alerts"));
 const Badges = lazy(() => import("../views/ui/Badges"));
@@ -24,9 +25,11 @@ const ThemeRoutes = [
     path: "/",
     element: <FullLayout />,
     children: [
-      { path: "/", element: <Navigate to="/starter" /> },
+      { path: "/", element: <Navigate to="/signin" /> },
+
       { path: "/starter", exact: true, element: <Starter /> },
       { path: "/about", exact: true, element: <About /> },
+      { path: "/signin", exact: true, element: <Signin /> },
       { path: "/alerts", exact: true, element: <Alerts /> },
       { path: "/badges", exact: true, element: <Badges /> },
       { path: "/buttons", exact: true, element: <Buttons /> },
@@ -35,6 +38,7 @@ const ThemeRoutes = [
       { path: "/table", exact: true, element: <Tables /> },
       { path: "/forms", exact: true, element: <Forms /> },
       { path: "/breadcrumbs", exact: true, element: <Breadcrumbs /> },
+
     ],
   },
 ];

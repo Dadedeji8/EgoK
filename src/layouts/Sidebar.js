@@ -28,7 +28,7 @@ const navigation = [
     href: "/cards",
     icon: "bi bi-card-text",
   },
- 
+
   // {
   //   title: "Table",
   //   href: "/table",
@@ -56,7 +56,7 @@ const navigation = [
   // },
   {
     title: "Sign Out",
-    href: "/",
+    href: "/signin",
     icon: "bi bi-power",
   },
 ];
@@ -95,7 +95,7 @@ const Sidebar = () => {
               </Link>
             </NavItem>
           ))}
-        
+
         </Nav>
       </div>
     </div>

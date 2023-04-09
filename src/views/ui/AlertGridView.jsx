@@ -4,7 +4,7 @@ import "./AlertGridView.css";
 const AlertGridView = () => {
   return (
     <div className="card__grid">
-      <Card className="grid__card border-secondary bg-warning">
+      <Card className="grid__card btn-outline-secondary ">
         <CardBody>
           <h3>SS1</h3>
           <p>Students:64</p>
@@ -13,7 +13,7 @@ const AlertGridView = () => {
           <button className="btn btn-primary text-white">View Students</button>
         </CardBody>
       </Card>
-      <Card className="grid__card border-secondary bg-warning">
+      <Card className="grid__card btn-outline-secondary ">
         <CardBody>
           <h3>SS1</h3>
           <p>Students:64</p>
@@ -22,7 +22,7 @@ const AlertGridView = () => {
           <button className="btn btn-primary text-white">View Students</button>
         </CardBody>
       </Card>
-      <Card className="grid__card border-secondary bg-warning">
+      <Card className="grid__card btn-outline-secondary ">
         <CardBody>
           <h3>SS1</h3>
           <p>Students:64</p>
@@ -31,7 +31,7 @@ const AlertGridView = () => {
           <button className="btn btn-primary text-white">View Students</button>
         </CardBody>
       </Card>
-      <Card className="grid__card border-secondary bg-warning">
+      <Card className="grid__card btn-outline-secondary ">
         <CardBody>
           <h3>SS1</h3>
           <p>Students:64</p>
@@ -40,7 +40,7 @@ const AlertGridView = () => {
           <button className="btn btn-primary text-white">View Students</button>
         </CardBody>
       </Card>
-      <Card className="grid__card border-secondary bg-warning">
+      <Card className="grid__card btn-outline-secondary ">
         <CardBody>
           <h3>SS1</h3>
           <p>Students:64</p>
