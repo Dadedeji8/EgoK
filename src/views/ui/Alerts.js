@@ -16,7 +16,6 @@ import AlertCards from "./AlertCards";
 import AlertGridView from "./AlertGridView";
 import ApexChart from "../../components/dashboard/StudentChart";
 const Alerts = () => {
-  // For Dismiss Button with Alert
 
 
   const [visible, setVisible] = useState(true);
