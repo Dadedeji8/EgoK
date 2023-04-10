@@ -1,16 +1,6 @@
 import React from "react";
-import {
-  Card,
-  CardBody,
-  CardTitle,
-  Table,
-  Col,
-  Badge,
-  ButtonGroup,
-  Button,
-} from "reactstrap";
+import { Card, CardBody, CardTitle, Table, Col, Badge } from "reactstrap";
 import "../../components/dashboard/cards.css";
-import ApexChart from "../../components/dashboard/StudentChart";
 
 const AlertCards = () => {
   return (
@@ -136,17 +126,6 @@ const AlertCards = () => {
         </CardBody>
       </Card>
       {/* the graph is below this is the STUDENT GRAPH */}
-      {/* <Card>
-        <CardTitle tag="h6" className="border-bottom p-3 mb-0">
-          <i className="fa fa-user-circle me-2" />
-          CLASS GRAPH
-        </CardTitle>
-        <CardBody className="">
-          <div>
-            <ApexChart className="col" />
-          </div>
-        </CardBody>
-      </Card> */}
     </div>
   );
 };
